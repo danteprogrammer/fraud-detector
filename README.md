@@ -3,7 +3,7 @@
 > API REST que clasifica transacciones bancarias fraudulentas en tiempo real.
 > Modelo de Machine Learning servido con FastAPI y desplegado en produccion.
 
-**[🚀 Demo en vivo](https://TU-APP.onrender.com/docs)** · **[📓 Notebook de analisis](notebooks/01_eda_modeling.ipynb)**
+**[🚀 Demo en vivo](https://fraud-detector-api-80h1.onrender.com/docs)** · **[📓 Notebook de analisis](notebooks/01_eda_modeling.ipynb)**
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688)
@@ -53,6 +53,13 @@ Documentación interactiva (Swagger) generada automáticamente por FastAPI.
 El endpoint `POST /predict` recibe una transacción y devuelve la predicción en tiempo real:
 
 ![Demo de la API](models/swagger_demo.png)
+
+## 📲 Dashboard interactivo
+
+Frontend en Streamlit que consume la API y permite analizar transacciones
+de forma visual, mostrando la probabilidad de fraude y el nivel de riesgo:
+
+![Dashboard](models/dashboard_demo.png)
 
 ## 🏗️ Arquitectura
 
